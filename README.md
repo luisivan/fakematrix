@@ -3,6 +3,9 @@ fakematrix
 
 A simple script to scare people
 
+https://npmjs.org/package/fakematrix
+
+
 ## Usage
 
 $ npm install -g fakematrix
@@ -12,6 +15,7 @@ $ fakematrix seconds message
 e.g.
 
 $ fakematrix 30 "Plane hacked"
+
 
 
 ## The story
