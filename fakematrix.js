@@ -4,8 +4,10 @@ var exec = require('sys').exec,
 	colors = require('colors'),
 	art = require('ascii-art');
 
+var defaultTime = 10; //Number of seconds the script will run if no input is provided
+
 var args = process.argv.splice(2),
-	timeout = parseInt(args[0])*1000,
+	timeout = (parseInt(args[0]) || defaultTime)*1000,
 	text = args[1];
 
 var stop = false;
