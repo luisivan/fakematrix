@@ -1,0 +1,35 @@
+{
+  "name": "fakematrix",
+  "version": "0.1.0",
+  "description": "A simple script to scare people",
+  "homepage": "https://github.com/luisivan/fakematrix",
+  "author": {
+    "name": "Luis Iván Cuende",
+    "email": "me@luisivan.net"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/luisivan/fakematrix.git"
+  },
+  "licenses": [
+    {
+      "type": "wtfpl",
+      "url": "http://www.wtfpl.net/txt/copying/"
+    }
+  ],
+  "bin": {
+    "fakematrix": "./fakematrix.js"
+  },
+  "engines": {
+    "node": ">=0.4.2"
+  },
+  "dependencies": {
+    "colors": ">=0.6.2",
+    "ascii-art": ">=0.0.2-alpha"
+  },
+  "keywords": [
+    "matrix",
+    "fake",
+    "fake hacking"
+  ]
+}
