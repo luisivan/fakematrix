@@ -1,4 +1,4 @@
-#!/usr/bin/node
+#!/usr/bin/env node
 
 var exec = require('sys').exec,
 	colors = require('colors'),
